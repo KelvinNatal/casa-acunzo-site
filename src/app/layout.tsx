@@ -16,9 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='scroll-smooth'>
-      <head>
-        <link rel='icon' href='./logoPadrao.png'/>
-      </head>
+      {/* <head>
+        <link rel='shortcut icon' href='./favicon.ico'/>
+      </head> */}
       <body className={tenor.className}>{children}</body>
     </html>
   )
