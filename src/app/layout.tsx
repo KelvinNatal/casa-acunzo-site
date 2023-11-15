@@ -1,6 +1,6 @@
-import type { Metadata } from 'next'
-import { Tenor_Sans } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from 'next';
+import { Tenor_Sans } from 'next/font/google';
+import './globals.css';
 
 const tenor = Tenor_Sans({ subsets: ['latin'], weight: '400' })
 
@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='scroll-smooth'>
+      <head>
+        <link rel='icon' href='./logoPadrao.png'/>
+      </head>
       <body className={tenor.className}>{children}</body>
     </html>
   )

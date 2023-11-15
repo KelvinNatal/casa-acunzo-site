@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 import Whatsapp from "./components/Whatsapp";
 import Catalogo from "./container/Catalogo";
 import Contato from "./container/Contato";
