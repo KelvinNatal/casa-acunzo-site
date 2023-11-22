@@ -31,7 +31,7 @@ const Sobre: React.FC<{setSobre: React.Dispatch<React.SetStateAction<boolean>>}>
             <div className='w-10/12 lg:w-6/12 h-full flex flex-col items-center justify-center'>
                 <h1 className='font-bold text-5xl mb-10  mt-8 lg:mt-0'>Sobre Nós</h1>
                 <div className='w-100 lg:w-[450px] h-100 flex flex-col items-center text-justify'>
-                    <p className='mb-5'>Fundada pelos irmãos Daniel Acunzo e Luiz
+                    <p className='mb-5'>Fundada pelos irmãos Danilo Acunzo e Luiz
                     Ricardo Acunzo, a Casa Acunzo nasceu do desejo
                     de criar um espaço que refletisse a diversidade e a
                     riqueza do mundo do vinho. Nossa jornada

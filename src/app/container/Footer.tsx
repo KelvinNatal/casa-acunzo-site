@@ -1,10 +1,11 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 
 import logo from '../../../public/assets/footerLogo.png';
-import { GrInstagram } from 'react-icons/gr'
+import { GrInstagram } from 'react-icons/gr';
 
 const Footer = () => {
+
   return (
     <div className='w-screen h-100 lg:h-[350px] bg-slate-900 flex flex-col justify-center items-center'>
         <div className='w-[95vw] lg:w-[80vw] h-4/6 flex lg:flex-row flex-col items-center justify-around my-10'>
@@ -18,8 +19,8 @@ const Footer = () => {
 
                 <div className='flex flex-col justify-center me-5'>
                     <h1 className='lg:text-lg'>Mooca - São Paulo</h1>
-                    <h1 className='lg:text-lg my-1 lg:my-2'>(11) 98258-1286</h1>
-                    <h1 className='lg:text-lg'>email@example.com</h1>
+                    <h1 className='lg:text-lg my-1 lg:my-3'>(11) 98258-1286</h1>
+                    <a href="mailto:luizricardo@casaacunzo.com.br" className='lg:text-lg'>luizricardo@casaacunzo.com.br</a>
                 </div>
             </div>
 
