@@ -39,9 +39,8 @@ const Sobre: React.FC<{setSobre: React.Dispatch<React.SetStateAction<boolean>>}>
                     por essa bebida incrível com você, nosso estimado
                     cliente.</p>
 
-                    <p className=''>Hoje, Luiz é o responsável, empenhado em fazer da
-                    sua degustação dos nossos clientes uma
-                    experiência enriquecedora, ágil e inspiradora.</p>
+                    <p className=''>Hoje, Luiz é o responsável, empenhado em fazer de
+                    sua degustação uma experiência enriquecedora, ágil e inspiradora.</p>
                 </div>
             </div>
         </div>

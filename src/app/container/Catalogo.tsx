@@ -30,7 +30,7 @@ const Catalogo: React.FC<{setCatalogo: React.Dispatch<React.SetStateAction<boole
                 <h1 className='font-bold text-3xl lg:text-5xl mb-6 text-center'>Conheça os nossos Produtos</h1>
                 <p className='w-[300px] mb-5 text-center font-medium text-lg'>Clique abaixo para conhecer os
                 nossos produtos disponíveis para venda.</p>
-                <a href='https://drive.google.com/file/d/1EfX1z7h-iVv2eStcYTI-Pt77ONoU_7bi/view?usp=sharing' target='_blank'><button className='w-[225px] h-100 bg-slate-950 text-slate-50 mt-4 p-3 rounded-md'>Acessar Agora!</button></a>
+                <a href='https://drive.google.com/file/d/1Pc-J3i-XL6AUaB7JKdWvVm65di_HgNK6/view?usp=drivesdk' target='_blank'><button className='w-[225px] h-100 bg-slate-950 text-slate-50 mt-4 p-3 rounded-md'>Acessar Agora!</button></a>
             </div>
         </div>
     </section>
